@@ -8,10 +8,6 @@ Desktop app (Tkinter) that trains the crop models on startup and lets you:
   * browse the cleaned data table
   * load your own CSV (columns: time, field, temperature, humidity,
     soil_moisture, growth_cm_day)
-
-Install:  pip install numpy pandas scikit-learn matplotlib
-Run:      python smart_agriculture_gui.py
-(Tkinter ships with Python; on Linux: sudo apt install python3-tk)
 """
 
 import tkinter as tk
